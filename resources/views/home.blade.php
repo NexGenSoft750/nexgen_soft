@@ -68,6 +68,42 @@
         </div>
     </div>
 </header>
+<div class="container text-center mt-5">
+    <div class="h5 text-uppercase fw-normal text-purple">Service We Offer</div>
+    <div class="h2 fw-bolder mt-4">Comprehensive Suite of Cutting <br> -Edge IT Services.</div>
+    <div class="row mt-5" id="services-row"> <!-- Removed Bootstrap's gx/gy classes -->
+        <div class="service-item text-start border-top border-2 border-secondary p-4" style="--bs-border-opacity: .1;">
+            <div class="h3 fw-medium">Digital product engineering</div>
+            <p class="fs-6 fw-semibold text-secondary">Driving Digital Innovation: Unleashing the Power of Product Engineering for Exceptional User Experiences and Technological Excellence.</p>
+            <div class="mt-4"><a href="#" class="text-purple fs-6">Learn More <i class="fa fa-long-arrow-right ms-1" style="transform: translateY(2px)" aria-hidden="true"></i></a></div>
+        </div>
+        <div class="service-item text-start border-top border-2 border-secondary p-4" style="--bs-border-opacity: .1;">
+            <div class="h3 fw-medium">Digital product engineering</div>
+            <p class="fs-6 fw-semibold text-secondary">Driving Digital Innovation: Unleashing the Power of Product Engineering for Exceptional User Experiences and Technological Excellence.</p>
+            <div class="mt-4"><a href="#" class="text-purple fs-6">Learn More <i class="fa fa-long-arrow-right ms-1" style="transform: translateY(2px)" aria-hidden="true"></i></a></div>
+        </div>
+        <div class="service-item text-start border-top border-2 border-secondary p-4" style="--bs-border-opacity: .1;">
+            <div class="h3 fw-medium">Digital product engineering</div>
+            <p class="fs-6 fw-semibold text-secondary">Driving Digital Innovation: Unleashing the Power of Product Engineering for Exceptional User Experiences and Technological Excellence.</p>
+            <div class="mt-4"><a href="#" class="text-purple fs-6">Learn More <i class="fa fa-long-arrow-right ms-1" style="transform: translateY(2px)" aria-hidden="true"></i></a></div>
+        </div>
+        <div class="service-item text-start border-top border-2 border-secondary p-4" style="--bs-border-opacity: .1;">
+            <div class="h3 fw-medium">Digital product engineering</div>
+            <p class="fs-6 fw-semibold text-secondary">Driving Digital Innovation: Unleashing the Power of Product Engineering for Exceptional User Experiences and Technological Excellence.</p>
+            <div class="mt-4"><a href="#" class="text-purple fs-6">Learn More <i class="fa fa-long-arrow-right ms-1" style="transform: translateY(2px)" aria-hidden="true"></i></a></div>
+        </div>
+        <div class="service-item text-start border-top border-2 border-secondary p-4" style="--bs-border-opacity: .1;">
+            <div class="h3 fw-medium">Digital product engineering</div>
+            <p class="fs-6 fw-semibold text-secondary">Driving Digital Innovation: Unleashing the Power of Product Engineering for Exceptional User Experiences and Technological Excellence.</p>
+            <div class="mt-4"><a href="#" class="text-purple fs-6">Learn More <i class="fa fa-long-arrow-right ms-1" style="transform: translateY(2px)" aria-hidden="true"></i></a></div>
+        </div>
+        <div class="service-item text-start border-top border-2 border-secondary p-4" style="--bs-border-opacity: .1;">
+            <div class="h3 fw-medium">Digital product engineering</div>
+            <p class="fs-6 fw-semibold text-secondary">Driving Digital Innovation: Unleashing the Power of Product Engineering for Exceptional User Experiences and Technological Excellence.</p>
+            <div class="mt-4"><a href="#" class="text-purple fs-6">Learn More <i class="fa fa-long-arrow-right ms-1" style="transform: translateY(2px)" aria-hidden="true"></i></a></div>
+        </div>
+    </div>
+</div>
 <section class="py-5 bg-gray-900">
   <div class="container">
     <div class="row">

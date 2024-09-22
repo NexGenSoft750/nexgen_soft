@@ -164,3 +164,31 @@ video {
   .card img{
     border-radius: 10px;    
   }
+
+  .text-purple{
+    color: rgb(139 61 255);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.service-item{
+    cursor: pointer;
+}
+
+.service-item{
+    transition: all 0.3s ease-in-out;
+}
+
+.service-item:hover{
+    border-top-color:  #5d09db !important;
+    box-shadow: 2px 1px 5px 5px rgba(128, 128, 128, 0.13);
+}
+
+#services-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  column-gap: 50px; 
+  row-gap: 0px; 
+}
