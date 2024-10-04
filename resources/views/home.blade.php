@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -68,43 +69,267 @@
         </div>
     </div>
 </header>
-<div class="container text-center mt-5">
-    <div class="h5 text-uppercase fw-normal text-purple">Service We Offer</div>
-    <div class="h2 fw-bolder mt-4">Comprehensive Suite of Cutting <br> -Edge IT Services.</div>
-    <div class="row mt-5" id="services-row"> <!-- Removed Bootstrap's gx/gy classes -->
-        <div class="service-item text-start border-top border-2 border-secondary p-4" style="--bs-border-opacity: .1;">
-            <div class="h3 fw-medium">Digital product engineering</div>
-            <p class="fs-6 fw-semibold text-secondary">Driving Digital Innovation: Unleashing the Power of Product Engineering for Exceptional User Experiences and Technological Excellence.</p>
-            <div class="mt-4"><a href="#" class="text-purple fs-6">Learn More <i class="fa fa-long-arrow-right ms-1" style="transform: translateY(2px)" aria-hidden="true"></i></a></div>
+<section class="container-fluid service-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                 <div class="text-uppercase hero-section-title" style="color:rgb(139 61 255);">Services</div>
+                 <div class="h1 fw-bold mt-4 hero-section-heading">We provide client-centric services</div>
+                 <p class="fs-5 hero-section-para">Maximize your website's capabilities and reach its full potential with our <br> services.</p>
+            </div>
         </div>
-        <div class="service-item text-start border-top border-2 border-secondary p-4" style="--bs-border-opacity: .1;">
-            <div class="h3 fw-medium">Digital product engineering</div>
-            <p class="fs-6 fw-semibold text-secondary">Driving Digital Innovation: Unleashing the Power of Product Engineering for Exceptional User Experiences and Technological Excellence.</p>
-            <div class="mt-4"><a href="#" class="text-purple fs-6">Learn More <i class="fa fa-long-arrow-right ms-1" style="transform: translateY(2px)" aria-hidden="true"></i></a></div>
-        </div>
-        <div class="service-item text-start border-top border-2 border-secondary p-4" style="--bs-border-opacity: .1;">
-            <div class="h3 fw-medium">Digital product engineering</div>
-            <p class="fs-6 fw-semibold text-secondary">Driving Digital Innovation: Unleashing the Power of Product Engineering for Exceptional User Experiences and Technological Excellence.</p>
-            <div class="mt-4"><a href="#" class="text-purple fs-6">Learn More <i class="fa fa-long-arrow-right ms-1" style="transform: translateY(2px)" aria-hidden="true"></i></a></div>
-        </div>
-        <div class="service-item text-start border-top border-2 border-secondary p-4" style="--bs-border-opacity: .1;">
-            <div class="h3 fw-medium">Digital product engineering</div>
-            <p class="fs-6 fw-semibold text-secondary">Driving Digital Innovation: Unleashing the Power of Product Engineering for Exceptional User Experiences and Technological Excellence.</p>
-            <div class="mt-4"><a href="#" class="text-purple fs-6">Learn More <i class="fa fa-long-arrow-right ms-1" style="transform: translateY(2px)" aria-hidden="true"></i></a></div>
-        </div>
-        <div class="service-item text-start border-top border-2 border-secondary p-4" style="--bs-border-opacity: .1;">
-            <div class="h3 fw-medium">Digital product engineering</div>
-            <p class="fs-6 fw-semibold text-secondary">Driving Digital Innovation: Unleashing the Power of Product Engineering for Exceptional User Experiences and Technological Excellence.</p>
-            <div class="mt-4"><a href="#" class="text-purple fs-6">Learn More <i class="fa fa-long-arrow-right ms-1" style="transform: translateY(2px)" aria-hidden="true"></i></a></div>
-        </div>
-        <div class="service-item text-start border-top border-2 border-secondary p-4" style="--bs-border-opacity: .1;">
-            <div class="h3 fw-medium">Digital product engineering</div>
-            <p class="fs-6 fw-semibold text-secondary">Driving Digital Innovation: Unleashing the Power of Product Engineering for Exceptional User Experiences and Technological Excellence.</p>
-            <div class="mt-4"><a href="#" class="text-purple fs-6">Learn More <i class="fa fa-long-arrow-right ms-1" style="transform: translateY(2px)" aria-hidden="true"></i></a></div>
+        <div class="row g-4 mt-5">
+            <div class="col-12 col-lg-6 col-xxl-4">
+                <div class="service-img position-relative">
+                     <img src="{{asset('assets/service_1.jpg')}}" alt="service img" class="img-fluid rounded">
+                     <div class="services-icons border-2 border-light rounded d-flex align-items-center justify-content-center position-absolute" style="background-color:rgb(139 61 255);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-vector-pen text-white-stable" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M10.646.646a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-1.902 1.902-.829 3.313a1.5 1.5 0 0 1-1.024 1.073L1.254 14.746 4.358 4.4A1.5 1.5 0 0 1 5.43 3.377l3.313-.828L10.646.646zm-1.8 2.908-3.173.793a.5.5 0 0 0-.358.342l-2.57 8.565 8.567-2.57a.5.5 0 0 0 .34-.357l.794-3.174-3.6-3.6z"></path>
+                            <path fill-rule="evenodd" d="M2.832 13.228 8 9a1 1 0 1 0-1-1l-4.228 5.168-.026.086.086-.026z"></path>
+                        </svg>
+                     </div>
+                </div>
+                <div class="service-body p-4 pt-5">
+                     <div class="h3 fw-bold service-title">Website Design</div>
+                     <p class="fs-6 mt-3 service-description" style="color:#64748b;">
+                        We design visually stunning and user- friendly websites that elevate your online presence. We provide client-centric ui/ux services that are user-friendly and aesthetic at the same time. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     </p>
+                     <div class="service-badges d-flex flex-wrap gap-3">
+                        <span class="badge rounded-pill px-3 py-2 text-dark" style="background-color: #e8d8ff;">Design Systems</span>
+                        <span class="badge rounded-pill px-3 py-2 text-dark" style="background-color: #e8d8ff;">Wireframes and Testing</span>
+                        <span class="badge rounded-pill px-3 py-2 text-dark" style="background-color: #e8d8ff;">User Flow</span>
+                     </div>
+                     <a href="#" class="d-inline-flex align-items-center mt-4 service-detail-link">
+                        <span class="me-1">View Case Study</span> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-4">
+                <div class="service-img position-relative">
+                     <img src="{{asset('assets/service_2.jpg')}}" alt="service img" class="img-fluid rounded">
+                      <div class="services-icons border-2 border-light rounded d-flex align-items-center justify-content-center position-absolute" style="background-color:rgb(139 61 255);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-vector-pen text-white-stable" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M10.646.646a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-1.902 1.902-.829 3.313a1.5 1.5 0 0 1-1.024 1.073L1.254 14.746 4.358 4.4A1.5 1.5 0 0 1 5.43 3.377l3.313-.828L10.646.646zm-1.8 2.908-3.173.793a.5.5 0 0 0-.358.342l-2.57 8.565 8.567-2.57a.5.5 0 0 0 .34-.357l.794-3.174-3.6-3.6z"></path>
+                            <path fill-rule="evenodd" d="M2.832 13.228 8 9a1 1 0 1 0-1-1l-4.228 5.168-.026.086.086-.026z"></path>
+                        </svg>
+                     </div>
+                </div>
+                <div class="service-body p-4 pt-5">
+                     <div class="h3 fw-bold service-title">Web Development</div>
+                     <p class="fs-6 mt-3 service-description" style="color:#64748b;">
+                        We build reliable, scalable solutions that deliver your vision and exceed your expectations. Web development is the work involved in developing a website lorem ipsum simple dummy content.
+                     </p>
+                     <div class="service-badges d-flex flex-wrap gap-3">
+                        <span class="badge rounded-pill px-3 py-2 text-dark" style="background-color: #e8d8ff;">Design Systems</span>
+                        <span class="badge rounded-pill px-3 py-2 text-dark" style="background-color: #e8d8ff;">Wireframes and Testing</span>
+                        <span class="badge rounded-pill px-3 py-2 text-dark" style="background-color: #e8d8ff;">User Flow</span>
+                     </div>
+                     <a href="#" class="d-inline-flex align-items-center mt-4 service-detail-link">
+                        <span class="me-1">View Case Study</span> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-4">
+                <div class="service-img position-relative">
+                     <img src="{{asset('assets/service_3.jpg')}}" alt="service img" class="img-fluid rounded">
+                      <div class="services-icons border-2 border-light rounded d-flex align-items-center justify-content-center position-absolute" style="background-color:rgb(139 61 255);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-vector-pen text-white-stable" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M10.646.646a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-1.902 1.902-.829 3.313a1.5 1.5 0 0 1-1.024 1.073L1.254 14.746 4.358 4.4A1.5 1.5 0 0 1 5.43 3.377l3.313-.828L10.646.646zm-1.8 2.908-3.173.793a.5.5 0 0 0-.358.342l-2.57 8.565 8.567-2.57a.5.5 0 0 0 .34-.357l.794-3.174-3.6-3.6z"></path>
+                            <path fill-rule="evenodd" d="M2.832 13.228 8 9a1 1 0 1 0-1-1l-4.228 5.168-.026.086.086-.026z"></path>
+                        </svg>
+                     </div>
+                </div>
+                <div class="service-body p-4 pt-5">
+                     <div class="h3 fw-bold service-title">eCommerce Development</div>
+                     <p class="fs-6 mt-3 service-description" style="color:#64748b;">
+                       We are at the forefront of modern e-commerce development. Which mainly means adding your logo to the Shopify store template we’ve used for the past six years. The Shopify stack for headless commerce.
+                     </p>
+                     <div class="service-badges d-flex flex-wrap gap-3">
+                        <span class="badge rounded-pill px-3 py-2 text-dark" style="background-color: #e8d8ff;">Design Systems</span>
+                        <span class="badge rounded-pill px-3 py-2 text-dark" style="background-color: #e8d8ff;">Wireframes and Testing</span>
+                        <span class="badge rounded-pill px-3 py-2 text-dark" style="background-color: #e8d8ff;">User Flow</span>
+                     </div>
+                     <a href="#" class="d-inline-flex align-items-center mt-4 service-detail-link">
+                        <span class="me-1">View Case Study</span> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xxl-4">
+                <div class="service-img position-relative">
+                     <img src="{{asset('assets/service_4.jpg')}}" alt="service img" class="img-fluid rounded">
+                      <div class="services-icons border-2 border-light rounded d-flex align-items-center justify-content-center position-absolute" style="background-color:rgb(139 61 255);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-vector-pen text-white-stable" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M10.646.646a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-1.902 1.902-.829 3.313a1.5 1.5 0 0 1-1.024 1.073L1.254 14.746 4.358 4.4A1.5 1.5 0 0 1 5.43 3.377l3.313-.828L10.646.646zm-1.8 2.908-3.173.793a.5.5 0 0 0-.358.342l-2.57 8.565 8.567-2.57a.5.5 0 0 0 .34-.357l.794-3.174-3.6-3.6z"></path>
+                            <path fill-rule="evenodd" d="M2.832 13.228 8 9a1 1 0 1 0-1-1l-4.228 5.168-.026.086.086-.026z"></path>
+                        </svg>
+                     </div>
+                </div>
+                <div class="service-body p-4 pt-5">
+                     <div class="h3 fw-bold service-title">Mobile Development</div>
+                     <p class="fs-6 mt-3 service-description" style="color:#64748b;">
+                        Mobile app development is the act or process by which a mobile app is developed for one or more mobile devices, which can include personal digital assistants, enterprise digital assistants, or mobile phones.
+                     </p>
+                     <div class="service-badges d-flex flex-wrap gap-3">
+                        <span class="badge rounded-pill px-3 py-2 text-dark" style="background-color: #e8d8ff;">Design Systems</span>
+                        <span class="badge rounded-pill px-3 py-2 text-dark" style="background-color: #e8d8ff;">Wireframes and Testing</span>
+                        <span class="badge rounded-pill px-3 py-2 text-dark" style="background-color: #e8d8ff;">User Flow</span>
+                     </div>
+                     <a href="#" class="d-inline-flex align-items-center mt-4 service-detail-link">
+                        <span class="me-1">View Case Study</span> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<section class="py-5 bg-gray-900">
+</section>
+
+<section class="py-xl-9 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center mb-xl-7 mb-5">
+                        <small class="text-uppercase ls-md fw-semibold text-primary">Company Overview</small>
+                        <h2 class="mb-0 mt-3">Discover Our Story: Unveiling the Journey</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="tabs-to-dropdown">
+                        <div class="nav-wrapper mx-md-10 mb-lg-8 mb-5">
+                            <ul class="nav nav-fill nav-line-bottom nav-pills" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link active list-font" data-target="#pills-company" role="tab"
+                                        aria-selected="true">Who we are</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link list-font" data-target="#pills-commitments" role="tab"
+                                        aria-selected="false">Our Commitments</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link list-font" data-target="#pills-team" role="tab"
+                                        aria-selected="false">Our Team</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="pills-tabContentOne">
+                            <div class="tab-pane fade show active" id="pills-company" role="tabpanel"
+                                data-aos="fade-up">
+                                <div class="row align-items-center gy-5">
+                                    <div class="col-lg-5">
+                                        <div class="d-flex flex-column gap-4">
+                                            <div class="d-flex flex-column gap-2">
+                                                <h2>Forward-thinking IT company through innovation.</h2>
+                                                <p class="mb-0">At [Your Company Name], we are more than just a
+                                                    technology solutions provider – we are architects of innovation...
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <a href="#!" class="btn btn-primary rounded-pill">Our Journey</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="position-relative">
+                                            <img src="{{asset('assets/it-company-about-img_2.jpg')}}" alt="about"
+                                                class="rounded-3 img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-commitments" role="tabpanel" data-aos="fade-up">
+                                <div class="row g-4">
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="d-flex flex-column gap-4 text-center text-lg-start mx-4 mx-lg-auto">
+                                            <div>
+                                                <span class=" bg-opacity-10 rounded icon-shape icon-xl">
+                                                    <img src="{{asset('assets/innovation.svg')}}" alt="innovation">
+                                                </span>
+                                            </div>
+                                            <div>
+                                                <h3>Innovation</h3>
+                                                <p class="mb-0">We thrive on creativity and ingenuity...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="d-flex flex-column gap-4 text-center text-lg-start mx-4 mx-lg-auto">
+                                            <div>
+                                                <span class=" bg-opacity-10 rounded icon-shape icon-xl">
+                                                    <img src="{{asset('assets/integrity.svg')}}" alt="integrity">
+                                                </span>
+                                            </div>
+                                            <div>
+                                                <h3>Integrity</h3>
+                                                <p class="mb-0">Trust is the foundation of our relationships...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="d-flex flex-column gap-4 text-center text-lg-start mx-4 mx-lg-auto">
+                                            <div>
+                                                <span class=" bg-opacity-10 rounded icon-shape icon-xl">
+                                                    <img src="{{asset('assets/hands-clapping.svg')}}" alt="clapping">
+                                                </span>
+                                            </div>
+                                            <div>
+                                                <h3>Client-Centric</h3>
+                                                <p class="mb-0">Your success is our success...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-team" role="tabpanel" data-aos="fade-up">
+                                <div class="row align-items-center gy-5">
+                                    <div class="col-lg-7">
+                                        <div class="d-flex gap-lg-4 gap-2 justify-content-center">
+                                            <div class="mt-5">
+                                                <img src="{{asset('assets/team-long-img-1.jpg')}}" alt="team" class="img-fluid rounded-3">
+                                            </div>
+                                            <div>
+                                                <img src="{{asset('assets/team-long-img-2.jpg')}}" alt="team" class="img-fluid rounded-3">
+                                            </div>
+                                            <div class="mt-5">
+                                                <img src="{{asset('assets/team-long-img-3.jpg')}}" alt="team" class="img-fluid rounded-3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 pe-lg-6">
+                                        <div class="d-flex flex-column gap-4">
+                                            <div class="d-flex flex-column gap-2">
+                                                <h3 class="mb-0">Meet the Team: Driving Innovation with Passion and
+                                                    Expertise</h3>
+                                                <p class="mb-0">At [Your Company Name], our success is driven by the
+                                                    talented individuals...</p>
+                                            </div>
+                                            <div>
+                                                <a href="#" class="btn btn-primary rounded-pill">Explore Careers</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="py-5 bg-gray-900 mt-5">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 col-12">
@@ -220,8 +445,87 @@
     
   </div>
 </section>
+  <section class="bg-light py-lg-9 py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card shadow-lg border-0">
+                        <div class="row g-0">
+                            <div class="col-md-6 d-none d-md-block rounded-start-3 form-img">
+                                <!-- for mobile img -->
+                            </div>
+                            <div class="col-xl-6 col-md-6 bg-light">
+                                <div class="card-body p-md-5">
+                                    <form class="row needs-validation g-3" novalidate>
+                                        <div class="col-lg-12">
+                                            <h3 class="heading">Ready to Transform Your Business?</h3>
+                                            <p class="heading-para">
+                                                Drop us a line about your project at
+                                                <span><a
+                                                        href="mailto:contact@example.com">contact@example.com</a></span>
+                                                or via the contact form below, and we will contact you soon.
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-12 ">
+                                            <label for="companyFirstnameInput" class="form-label">First Name <span
+                                                    class="text-danger">*</span></label>
+                                            <input type="text" class="form-control" id="companyFirstnameInput" required>
+                                            <div class="invalid-feedback">Please enter firstname.</div>
+                                        </div>
+                                        <div class="col-lg-6 col-12">
+                                            <label for="companyNameInput" class="form-label">Company <span
+                                                    class="text-danger">*</span></label>
+                                            <input type="text" class="form-control" id="companyNameInput" required>
+                                            <div class="invalid-feedback">Please enter company name.</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label for="companyEmailInput" class="form-label">Work Email <span
+                                                    class="text-danger">*</span></label>
+                                            <input type="email" class="form-control" id="companyEmailInput" required>
+                                            <div class="invalid-feedback">Please enter email.</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label for="companyPhoneInput" class="form-label">Phone <span
+                                                    class="text-danger">*</span></label>
+                                            <input type="tel" class="form-control" id="companyPhoneInput" required>
+                                            <div class="invalid-feedback">Please enter phone.</div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label for="companyTextarea" class="form-label">Describe your idea</label>
+                                            <textarea class="form-control" id="companyTextarea"
+                                                placeholder="Write to us" rows="3" required></textarea>
+                                            <div class="invalid-feedback">Please write a message.</div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-check py-2">
+                                                <input class="form-check-input" type="checkbox" id="companyCheckagree"
+                                                    required>
+                                                <label class="form-check-label " for="companyCheckagree">
+                                                    I agree to the <a href="#!" style="color: purple;">privacy
+                                                        policy</a>
+                                                </label>
+                                                <div class="invalid-feedback">You must agree before submitting.</div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="container-fluid full-height d-flex justify-content-center align-items-center">
+                                            <div class="d-grid gap-2 w-100">
+                                                <button class="btn btn-primary full-button" type="button">Let's work
+                                                    together!</button>
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 <footer>
-     <section class="py-5">
+     <section class="py-5 mt-5">
         <div class="container">
             <!-- Heading Section -->
             <div class="row">
@@ -387,6 +691,7 @@
 <script src="{{ asset('js/app.js') }}" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.js"></script>
 <script>
   $('.owl-carousel').owlCarousel({
       nav: true,
