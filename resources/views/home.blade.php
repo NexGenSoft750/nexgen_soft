@@ -61,13 +61,13 @@
         <source src="{{ asset('assets/video.mp4') }}" type="video/mp4">
     </video>
     <div class="centered-text">
-        <p class="fs-1 fw-bold">Empowering Your Business Through Cutting-Edge IT Solutions</p>
-        <p class="fs-5 fw-semibold text-secondary">Innovative IT solutions, meticulously tailored for your success – where technology meets excellence for seamless business transformation.</p>
-        <div class="d-flex justify-content-center gap-3 mt-4">
-            <button class="btn btn-primary fs-6 fw-medium rounded-pill">Get Free Estimation</button>
-            <button class="btn text-light fs-6 fw-meduim d-flex align-items-center gap-2" id="recent-projects-btn"><span>Recent Projects</span><i class="fa fa-long-arrow-right text-light" style="transform: translateY(2px)" aria-hidden="true"></i></button>
-        </div>
-    </div>
+                    <p class="fs-1 fw-bold">Empowering Your Business Through Cutting-Edge IT Solutions</p>
+                    <p class="fs-5 fw-semibold text-secondary">Innovative IT solutions, meticulously tailored for your success – where technology meets excellence for seamless business transformation.</p>
+                    <div class="d-flex justify-content-center gap-3 mt-4">
+                        <button class="btn btn-primary fs-6 fw-medium rounded-pill">Get Free Estimation</button>
+            <button class="btn text-light fs-6 fw-medium d-flex align-items-center gap-2" id="recent-projects-btn"><span>Recent Projects</span><i class="fa fa-long-arrow-right text-light" style="transform: translateY(2px)" aria-hidden="true"></i></button>
+                    </div>
+                </div>
 </header>
 <section class="container-fluid service-section">
     <div class="container">
@@ -227,7 +227,7 @@
                         <div class="tab-content" id="pills-tabContentOne">
                             <div class="tab-pane fade show active" id="pills-company" role="tabpanel"
                                 data-aos="fade-up">
-                                <div class="row align-items-center gy-5">
+                                <div class="row align-items-center gy-5">                                    
                                     <div class="col-lg-5">
                                         <div class="d-flex flex-column gap-4">
                                             <div class="d-flex flex-column gap-2">
@@ -236,9 +236,9 @@
                                                     technology solutions provider – we are architects of innovation...
                                                 </p>
                                             </div>
-                                            <div>
-                                                <a href="#!" class="btn btn-primary rounded-pill">Our Journey</a>
-                                            </div>
+                                            <div class="d-flex justify-content-center align-items-center vh-10">
+                                             <a href="#!" class="btn btn-primary rounded-pill " style="max-width: 300px; width : 250px">Our Journey</a>
+                                              </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-7">
@@ -315,9 +315,9 @@
                                                 <p class="mb-0">At [Your Company Name], our success is driven by the
                                                     talented individuals...</p>
                                             </div>
-                                            <div>
-                                                <a href="#" class="btn btn-primary rounded-pill">Explore Careers</a>
-                                            </div>
+                                            <div class="d-flex justify-content-center align-items-center vh-10">
+                                              <a href="#!" class="btn btn-primary rounded-pill w-100" style="max-width: 300px; width: 250px;">Our Journey</a>
+                                             </div>
                                         </div>
                                     </div>
                                 </div>
