@@ -551,7 +551,7 @@
             <div class="row pb-2 mt-5">
                 <div class="col-md-6 mb-4">
                     <!-- Left Side -->
-                    <div class="left-side">
+                    <div class="left-side text-color">
                         <a href="#">
                             <img src="{{ asset('assets/logo.svg') }}" alt="logo" class="img-fluid mb-4" />
                         </a>
@@ -562,7 +562,7 @@
                     </div>
                 </div>
                 <!-- Right Side -->
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="right-side p-2">
                         <div class="right-heading">
                             <h1 class="right-h1">Join our newsletter</h1>
@@ -583,7 +583,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col text-color">
                     <div class="heading-links">
                         Landings
                     </div>
@@ -599,7 +599,7 @@
                     </div>
                 </div>
                 <!-- second link  -->
-                <div class="col">
+                <div class="col text-color">
                     <div class="heading-links">
                         Accounts
                     </div>
@@ -614,7 +614,7 @@
                     </div>
                 </div>
                 <!-- third link  -->
-                <div class="col">
+                <div class="col text-color">
                     <div class="heading-links">
                         Resources
                     </div>
@@ -630,7 +630,7 @@
                     </div>
                 </div>
                 <!-- fourth link  -->
-                <div class="col">
+                <div class="col text-color">
                     <div class="heading-links">
                         Company
                     </div>
@@ -646,7 +646,7 @@
 
                 </div>
                 <!-- fifth link  -->
-                <div class="col">
+                <div class="col text-color">
                     <div class="heading-links">
                         Community
                     </div>
@@ -664,7 +664,7 @@
             <!-- Footer Bottom -->
             <div class="row pt-4">
                 <div class="col-md-6">
-                    <div class="footer-btom">
+                    <div class="footer-btom text-color">
                         <span>Copyright © 2024
                             <a href="#" class="text-decoration-none">Block Bootstrap 5 Theme</a> | Designed by
                             <a href="#" class="text-decoration-none">CodesCandy</a>
@@ -673,10 +673,10 @@
 
                 </div>
                 <div class="col-md-6 text-md-end">
-                    <div class="d-flex justify-content-md-end">
-                        <a href="#" class="btn btn-outline-dark btn-sm me-2"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="btn btn-outline-dark btn-sm me-2"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="btn btn-outline-dark btn-sm"> <i class="bi bi-twitter"></i></a>
+                    <div class="d-flex justify-content-md-end ">
+                        <a href="#" class="btn  btn-md   "><i class="bi bi-instagram footer-icon"></i></a>
+                        <a href="#" class="btn  btn-md  "><i class="bi bi-facebook footer-icon"></i></a>
+                        <a href="#" class="btn  btn-md "> <i class="bi bi-twitter footer-icon"></i></a>
                     </div>
                 </div>
             </div>
