@@ -353,3 +353,24 @@ a {
             color: #0000009d;
            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
+        .nav-link-1 {
+            color: blueviolet;
+            border: none;
+            position: relative;
+        }
+        .nav-link-1::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 4px;
+            background-color: rgba(159, 159, 161, 0.349);
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            transition: background-color 0.5s ease;
+            border-radius: 50px;
+        }
+        
+        .nav-link-1.active::after {
+            background-color: #4408e9;
+        }
