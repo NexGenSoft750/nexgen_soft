@@ -69,9 +69,14 @@ video {
     font-family: 'Roboto', sans-serif;  
     line-height: 10px;
 }
-
+.text-color{
+    color: #1e293b7c;
+    
+}
 .list-unstyled a {
     transition: all .3s ;
+    color: #1e293b62;
+    
 }
 
 .list-unstyled a:hover {
@@ -82,20 +87,39 @@ video {
 /* link faqs  */
 
 .heading-links {
-    font-size: 1rem;
+    color: #1e293b80;
+    font-size: 17px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 10px;
 
 }
-
+.right-heading{
+    color: #1e293b80;
+}
 .link-list-footer li {
     margin: 5px 0;
-    font-size: 1em;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all .2s;
 }
 .link-list-footer li:hover {
-   color: rgba(0, 0, 255, 0.781);
+   color: rgba(0, 0, 255, 0.651);
    cursor: pointer;
+}
+.footer-btom{
+    font-size: 14px;
+}
+.footer-icon{
+    background-color: lightgray;
+    color: #4c4d4e;
+    padding: 10px 13px;
+    border-radius: 7px;
+    transition: all .3s;
+}
+.footer-icon:hover{
+    background-color: rgba(31, 31, 32, 0.733);
+color: rgb(241, 238, 238);
 }
 
 @media (max-width: 768px) {
