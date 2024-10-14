@@ -20,3 +20,18 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     );
 });
+
+let lastScrollTop = 0;
+const navbar = $('.navbar');
+
+$(window).scroll(function() {
+    let scrollTop = $(this).scrollTop();
+
+    if (scrollTop > lastScrollTop) {
+        navbar.addClass('slide-up');
+    } else {
+        navbar.removeClass('slide-up');
+    }
+
+    lastScrollTop = scrollTop;
+});
