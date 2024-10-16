@@ -21,14 +21,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
-<body>
+<body>    
 <header>
-    <nav class="navbar fixed-top navbar-expand-lg">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a href="#">
-                {{-- <img src="{{ asset('assets/nexgen_soft.png') }}" alt="logo not found" class="logo-img"> --}}
-                NavBar
-            </a>
+            <a class="navbar-brand" href="#">NavBar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -57,15 +54,20 @@
             </div>
         </div>
     </nav>
-    <video autoplay muted loop playsinline>
-        <source src="{{ asset('assets/video.mp4') }}" type="video/mp4">
-    </video>
+    <div class="video-wrapper">
+        <video autoplay muted loop playsinline>
+            <source src="{{ asset('assets/video.mp4') }}" type="video/mp4">
+        </video>
+    </div>
     <div class="centered-text">
-        <p class="fs-1 fw-bold">Empowering Your Business Through Cutting-Edge IT Solutions</p>
-        <p class="fs-5 fw-semibold text-secondary">Innovative IT solutions, meticulously tailored for your success – where technology meets excellence for seamless business transformation.</p>
+        <p class="fs-1 fw-bold hide-on-small">Empowering Your Business Through Cutting-Edge IT Solutions</p>
+        <p class="fs-5 fw-semibold text-secondary hide-on-small">Innovative IT solutions, meticulously tailored for your success – where technology meets excellence for seamless business transformation.</p>
         <div class="d-flex justify-content-center gap-3 mt-4">
             <button class="btn btn-primary fs-6 fw-medium rounded-pill">Get Free Estimation</button>
-            <button class="btn text-light fs-6 fw-meduim d-flex align-items-center gap-2" id="recent-projects-btn"><span>Recent Projects</span><i class="fa fa-long-arrow-right text-light" style="transform: translateY(2px)" aria-hidden="true"></i></button>
+            <button class="btn text-light fs-6 fw-medium d-flex align-items-center gap-2" id="recent-projects-btn">
+                <span>Recent Projects</span>
+                <i class="fa fa-long-arrow-right text-light" style="transform: translateY(2px)" aria-hidden="true"></i>
+            </button>
         </div>
     </div>
 </header>
