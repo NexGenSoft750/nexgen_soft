@@ -56,15 +56,15 @@
     </nav>
     <div class="video-wrapper">
         <video autoplay muted loop playsinline>
-            <source src="{{ asset('assets/video.mp4') }}" type="video/mp4">
+            <source src="{{ asset('assets/video 4k.mp4') }}" type="video/mp4">
         </video>
     </div>
     <div class="centered-text">
-        <p class="fs-1 fw-bold hide-on-small">Empowering Your Business Through Cutting-Edge IT Solutions</p>
-        <p class="fs-5 fw-semibold text-secondary hide-on-small">Innovative IT solutions, meticulously tailored for your success – where technology meets excellence for seamless business transformation.</p>
+        <p class="fs-1  fw-bold hide-on-small">Empowering Your Business Through Cutting-Edge IT Solutions</p>
+        <p class="fs-5 fw-semibold text-light hide-on-small">Innovative IT solutions, meticulously tailored for your success – where technology meets excellence for seamless business transformation.</p>
         <div class="d-flex justify-content-center gap-3 mt-4">
-            <button class="btn btn-primary fs-6 fw-medium rounded-pill">Get Free Estimation</button>
-            <button class="btn text-light fs-6 fw-medium d-flex align-items-center gap-2" id="recent-projects-btn">
+            <button class="btn px-5 py-2 btn-primary fs-6 fw-medium rounded-pill">Get Free Estimation</button>
+            <button class="btn px-5 py-2  text-light fs-6 fw-medium d-flex  align-items-center gap-2" id="recent-projects-btn">
                 <span>Recent Projects</span>
                 <i class="fa fa-long-arrow-right text-light" style="transform: translateY(2px)" aria-hidden="true"></i>
             </button>
