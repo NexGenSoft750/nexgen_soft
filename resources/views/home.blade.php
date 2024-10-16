@@ -445,85 +445,75 @@
     
   </div>
 </section>
-  <section class="bg-light py-lg-9 py-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="card shadow-lg border-0">
-                        <div class="row g-0">
-                            <div class="col-md-6 d-none d-md-block rounded-start-3 form-img">
-                                <!-- for mobile img -->
-                            </div>
-                            <div class="col-xl-6 col-md-6 bg-light">
-                                <div class="card-body p-md-5">
-                                    <form class="row needs-validation g-3" novalidate>
-                                        <div class="col-lg-12">
-                                            <h3 class="heading">Ready to Transform Your Business?</h3>
-                                            <p class="heading-para">
-                                                Drop us a line about your project at
-                                                <span><a
-                                                        href="mailto:contact@example.com">contact@example.com</a></span>
-                                                or via the contact form below, and we will contact you soon.
-                                            </p>
+<section class="business-cards py-lg-9 py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="card-main shadow-lg border-0">
+                    <div class="row g-0">
+                        <div class="col-md-6 d-none d-md-block rounded-start-2 form-img">
+                            <!-- for mobile img -->
+                        </div>
+                        <div class="col-xl-6 col-md-6 bg-white ">
+                            <div class="card-body card-main-text p-3 p-md-5">
+                                <form class="row needs-validation g-3" novalidate>
+                                    <div class="col-lg-12 py-2">
+                                        <h3 class="heading">Ready to Transform Your Business?</h3>
+                                        <p class="heading-para">
+                                            Drop us a line about your project at
+                                            <span><a href="mailto:contact@example.com">contact@example.com</a></span>
+                                            or via the contact form below, and we will contact you soon.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <label for="companyFirstnameInput" class="form-label">First Name <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="companyFirstnameInput" required>
+                                        <div class="invalid-feedback">Please enter firstname.</div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <label for="companyNameInput" class="form-label">Company <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="companyNameInput" required>
+                                        <div class="invalid-feedback">Please enter company name.</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="companyEmailInput" class="form-label">Work Email <span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control" id="companyEmailInput" required>
+                                        <div class="invalid-feedback">Please enter email.</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="companyPhoneInput" class="form-label">Phone <span class="text-danger">*</span></label>
+                                        <input type="tel" class="form-control" id="companyPhoneInput" required>
+                                        <div class="invalid-feedback">Please enter phone.</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="companyTextarea" class="form-label">Describe your idea</label>
+                                        <textarea class="form-control" id="companyTextarea" placeholder="Write to us" rows="3" required></textarea>
+                                        <div class="invalid-feedback">Please write a message.</div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-check py-2">
+                                            <input class="form-check-input" type="checkbox" id="companyCheckagree" required>
+                                            <label class="form-check-label" for="companyCheckagree">
+                                                I agree to the <a href="#!" style="color: #8B3DFF;">privacy policy</a>
+                                            </label>
+                                            <div class="invalid-feedback">You must agree before submitting.</div>
                                         </div>
-                                        <div class="col-lg-6 col-12 ">
-                                            <label for="companyFirstnameInput" class="form-label">First Name <span
-                                                    class="text-danger">*</span></label>
-                                            <input type="text" class="form-control" id="companyFirstnameInput" required>
-                                            <div class="invalid-feedback">Please enter firstname.</div>
+                                    </div>
+                                    <div class="container-fluid full-height d-flex justify-content-center align-items-center">
+                                        <div class="d-grid gap-2 w-100">
+                                            <button class="btn-primary btn-business " type="button">Let's work together!</button>
                                         </div>
-                                        <div class="col-lg-6 col-12">
-                                            <label for="companyNameInput" class="form-label">Company <span
-                                                    class="text-danger">*</span></label>
-                                            <input type="text" class="form-control" id="companyNameInput" required>
-                                            <div class="invalid-feedback">Please enter company name.</div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <label for="companyEmailInput" class="form-label">Work Email <span
-                                                    class="text-danger">*</span></label>
-                                            <input type="email" class="form-control" id="companyEmailInput" required>
-                                            <div class="invalid-feedback">Please enter email.</div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <label for="companyPhoneInput" class="form-label">Phone <span
-                                                    class="text-danger">*</span></label>
-                                            <input type="tel" class="form-control" id="companyPhoneInput" required>
-                                            <div class="invalid-feedback">Please enter phone.</div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <label for="companyTextarea" class="form-label">Describe your idea</label>
-                                            <textarea class="form-control" id="companyTextarea"
-                                                placeholder="Write to us" rows="3" required></textarea>
-                                            <div class="invalid-feedback">Please write a message.</div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-check py-2">
-                                                <input class="form-check-input" type="checkbox" id="companyCheckagree"
-                                                    required>
-                                                <label class="form-check-label " for="companyCheckagree">
-                                                    I agree to the <a href="#!" style="color: purple;">privacy
-                                                        policy</a>
-                                                </label>
-                                                <div class="invalid-feedback">You must agree before submitting.</div>
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="container-fluid full-height d-flex justify-content-center align-items-center">
-                                            <div class="d-grid gap-2 w-100">
-                                                <button class="btn btn-primary full-button" type="button">Let's work
-                                                    together!</button>
-                                            </div>
-                                        </div>
-
-                                    </form>
-                                </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 <footer>
      <section class="py-5 mt-5">
         <div class="container">
