@@ -25,7 +25,8 @@
 <header>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">NavBar</a>
+        <a class="navbar-brand" href="#">
+        <img src="{{ asset('assets/gen-logo3.png') }}" alt="Logo" style="height: 45px; width: 100px;"/></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
